@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply bg-[#040924] font-Roboto;
+    }
+
+    label{
+        @apply text-brand text-sm;
+    }
+
+    input{
+        @apply bg-fasc border border-gray-400 outline-headline rounded p-2;
+    }
+}
